@@ -16,7 +16,7 @@ public class MobileBankApiTestV1 {
                 .when()
                 .post("/post")
                 .then()
-                .statusCode(202)
+                .statusCode(200)
                 .body("data", equalTo(text));
     }
 }
